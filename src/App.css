@@ -25,6 +25,7 @@
     --primary-color: #6C2BD9;
     --text-color: #F9F9F9;
     --background-color: #1F1F1F;
+    --secondary-background-color: #191919;
     --accent-color: #2CD4D9;
     --secondary-color: #B0B0B0;
 
@@ -36,7 +37,7 @@
 }
 
 .App {
-    background-color: var(--background-color);
+    background: var(--background-color);
     min-height: 100vh;
     color: var(--text-color);
     font-family: var(--body-font-family), sans-serif;

@@ -1,0 +1,28 @@
+#Footer {
+    width: 100%;
+    text-align: center;
+    height: 64px;
+    background: var(--secondary-background-color)
+}
+
+#Footer-list {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+#Footer-list li {
+    flex: 1;
+    height: 100%;
+}
+
+.Footer-icon {
+    margin-top: 16px;
+    color: var(--secondary-color);
+}
+
+.Footer-icon:hover {
+    color: var(--accent-color);
+}
