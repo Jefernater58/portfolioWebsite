@@ -1,0 +1,44 @@
+#Navbar {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+#Navbar-list {
+    width: fit-content;
+    height: 100%;
+    margin:auto;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+#Navbar-list li {
+    width: 150px;
+    height: 100%;
+    flex: none;
+}
+
+.Navbar-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.Navbar-link:hover {
+    font-weight: bold;
+}
+
+.Navbar-link.active {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+.Navbar-divider {
+    border: 0;
+    margin: 0;
+}

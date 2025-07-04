@@ -1,38 +1,71 @@
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('./assets/fonts/IBMPlexSans.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'IBM Plex Mono Bold';
+    src: url('./assets/fonts/IBMPlexMono-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'IBM Plex Mono Regular';
+    src: url('./assets/fonts/IBMPlexMono-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'IBM Plex Mono SemiBold';
+    src: url('./assets/fonts/IBMPlexMono-SemiBold.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #6C2BD9;
+    --text-color: #F9F9F9;
+    --background-color: #1F1F1F;
+    --accent-color: #2CD4D9;
+    --secondary-color: #B0B0B0;
+
+    --heading-font-family: "IBM Plex Mono SemiBold";
+    --body-font-family: "IBM Plex Sans";
+    --code-font-family: "IBM Plex Mono Regular";
+
+    --heading-font-size: 46px;
+}
+
 .App {
-  text-align: center;
+    background-color: var(--background-color);
+    min-height: 100vh;
+    color: var(--text-color);
+    font-family: var(--body-font-family), sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family), monospace;
+    margin-bottom: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    text-align: center;
+    color: var(--accent-color);
+    font-size: var(--heading-font-size);
+    animation: fadeIn 1s ease-out;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    text-decoration: none;
+    color: var(--accent-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
 }
