@@ -38,6 +38,10 @@
 
 .App {
     background: var(--background-color);
+    background-image: url(./assets/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     min-height: 100vh;
     color: var(--text-color);
     font-family: var(--body-font-family), sans-serif;
