@@ -39,14 +39,20 @@
     --heading-font-size: 46px;
 }
 
-h1 {
-    font-size: 1.8rem;
-}
+@media (max-width: 768px) {
+    :root {
+        --heading-font-size: 1.8rem;
+        --body-font-size: 0.8rem;
+    }
 
-p {
-    font-size: 1rem;
-}
+    p, a, li {
+        font-size: var(--body-font-size);
+    }
 
+    h2 {
+        font-size: 1.2rem;
+    }
+}
 
 .App {
     background: var(--background-color);
