@@ -25,12 +25,13 @@
     gap: 2rem;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .Contact-formInput {
     text-align: left;
     display: flex;
-    flex: 1;
+    flex: 1 1 250px;
     flex-direction: column;
 }
 
