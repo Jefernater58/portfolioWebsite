@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
     .Home {
-        width: 100%;
+        width: 80%;
         padding: calc(50px + 4rem) 1rem 5rem 1rem;
     }
 }
