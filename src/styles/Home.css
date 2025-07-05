@@ -16,6 +16,12 @@
     }
 }
 
+.Home-title {
+    text-align: center;
+    color: var(--accent-color);
+    animation: fadeIn 1s ease-out;
+}
+
 .Home-list {
     list-style-type: none;
     padding: 0;

@@ -30,7 +30,9 @@
     --background-color: #1F1F1F;
     --secondary-background-color: #191919;
     --accent-color: #2CD4D9;
+    --accent-color-secondary: #21aeb2;
     --secondary-color: #B0B0B0;
+    --tertiary-color: #676767;
 
     --heading-font-family: "IBM Plex Mono SemiBold";
     --body-font-family: "IBM Plex Sans";
@@ -78,10 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    text-align: center;
-    color: var(--accent-color);
     font-size: var(--heading-font-size);
-    animation: fadeIn 1s ease-out;
 }
 
 a {

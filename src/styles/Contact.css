@@ -6,3 +6,88 @@
     align-items: center;
     text-align: center;
 }
+
+.Contact-form {
+    box-sizing: border-box;
+    padding: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    background: var(--secondary-background-color);
+    overflow-y: auto;
+    max-height: 800px;
+    border-radius: 5px;
+}
+
+.Contact-formRow {
+    padding: 1rem;
+    gap: 2rem;
+    width: 100%;
+    display: flex;
+}
+
+.Contact-formInput {
+    text-align: left;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Contact-inputLabel {
+    color: var(--secondary-color);
+}
+
+.Contact-textInput::placeholder {
+    color: var(--tertiary-color);
+}
+
+.Contact-textInput {
+    font-family: "IBM Plex Mono Regular", monospace;
+    background: var(--background-color);
+    outline: none;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    height: 2.5rem;
+    color: var(--text-color);
+    border: 1px solid var(--background-color);
+}
+
+.Contact-textInput:focus {
+    border-color: var(--secondary-color);
+}
+
+.Contact-submit {
+    width: 100%;
+    height: 2.5rem;
+    background: var(--accent-color);
+    border: none;
+    color: var(--background-color);
+    font-size: 0.9rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+}
+
+.Contact-submit:hover {
+    background: var(--accent-color-secondary);
+}
+
+.Contact-textArea {
+    resize: none;
+    background: var(--background-color);
+    outline: none;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    font-family: "IBM Plex Mono Regular", monospace;
+    padding: 0.5rem;
+    height: 200px;
+    color: var(--text-color);
+    border: 1px solid var(--background-color);
+}
+
+.Contact-textArea:focus {
+    border-color: var(--secondary-color);
+}

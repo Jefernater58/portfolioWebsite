@@ -6,7 +6,7 @@ export default function Home() {
     return <div className="Container">
         <Navbar/>
         <div className="Home">
-            <h1>Frederick Rayner</h1>
+            <h1 className="Home-title">Frederick Rayner</h1>
             <p style={{color: "var(--secondary-color)", animation: "fadeIn 1s ease-out", fontStyle: "italic"}}>"The best way to predict the future is to invent it." — Alan Kay</p>
             <br/>
             <p style={{textAlign: "center"}}>A-level student with a passion for both cyber security and engineering, exploring the intersection of technology, security, and innovation.</p>
@@ -43,9 +43,6 @@ export default function Home() {
                 </ul>
             </div>
         </div>
-
-        <br/><br/><br/><br/><br/><br/>
-
         <Footer/>
     </div>;
 }
