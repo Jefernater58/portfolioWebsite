@@ -16,9 +16,15 @@
     flex-direction: column;
     max-width: 650px;
     background: var(--secondary-background-color);
-    overflow-y: hidden;
-    max-height: 800px;
     border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .Contact-form {
+        width: 100%;
+        margin: 50px 0;
+        border-radius: 0;
+    }
 }
 
 .Contact-formRow {
