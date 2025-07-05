@@ -12,7 +12,7 @@ export default function Home() {
             <p style={{textAlign: "center"}}>A-level student with a passion for both cyber security and engineering, exploring the intersection of technology, security, and innovation.</p>
         </div>
 
-        <div style={{textAlign: "center"}}>
+        <div style={{textAlign: "center", paddingBottom: "4rem"}}>
             <h2>Skills</h2>
             <ul className="Home-skills-list">
                 <li><span style={{color: "var(--accent-color)"}}>></span> Programming</li>
@@ -21,8 +21,6 @@ export default function Home() {
                 <li><span style={{color: "var(--accent-color)"}}>></span> Mathematics</li>
             </ul>
         </div>
-
-        <br/><br/><br/><br/>
 
         <div className="Home-about">
             <div>

@@ -3,7 +3,7 @@
     text-align: center;
     height: 64px;
     background: var(--secondary-background-color);
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
