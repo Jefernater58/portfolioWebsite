@@ -27,13 +27,19 @@ export default function Home() {
                 <h2>About me</h2>
                 <p>I am currently studying computer science, physics and mathematics. In the future, I aspire to study a degree or degree-apprenticeship so that I can broaden my knowledge
                     in computing and engineering, and lead on to a successful career.</p>
+                <br/>
+                <p>There is no doubt that technology is the future, and with more technology comes more ways for criminals to attack us.
+                    This is why I believe that cybersecurity is the most important part of computing: to control and protect our information.</p>
             </div>
 
             <div>
                 <h2>Experience</h2>
                 <ul className="Home-list">
-                    <li style={{fontWeight: "bold"}}><span style={{color: "var(--accent-color)", fontWeight: "normal"}}>Software developer</span> - Women's Liberation Collective</li>
-                    <li style={{fontWeight: "bold"}}><span style={{color: "var(--accent-color)", fontWeight: "normal"}}>Engineering work experience</span> - Ford</li>
+                    <li>JUN 2024 - MAY 2025<br/><span style={{color: "var(--accent-color)"}}>
+                        Software developer</span> > <span style={{fontWeight: "bold"}}>The Women's Liberation Collective</span></li>
+                    <br/>
+                    <li>JUL 2025<br/><span style={{color: "var(--accent-color)"}}>
+                        Engineering work experience</span> > <span style={{fontWeight: "bold"}}>Ford Motor Company</span></li>
                 </ul>
             </div>
         </div>
