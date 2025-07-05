@@ -16,7 +16,7 @@
     flex-direction: column;
     max-width: 650px;
     background: var(--secondary-background-color);
-    overflow-y: auto;
+    overflow-y: hidden;
     max-height: 800px;
     border-radius: 5px;
 }
