@@ -1,8 +1,15 @@
 .Projects {
     display: flex;
+    padding: 66px 16px;
+    flex-wrap: wrap;
+    margin: 0 auto;
     flex-grow: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+}
+
+.Projects-project {
+    display: flex;
+    background: red;
+    margin: 16px;
+    width: 400px;
+    height: 350px;
 }
