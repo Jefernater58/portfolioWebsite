@@ -1,15 +1,25 @@
 .Projects {
     display: flex;
-    padding: 66px 16px;
-    flex-wrap: wrap;
     margin: 0 auto;
+    width: 50%;
+    min-width: 600px;
+    flex-direction: column;
+    padding: calc(50px + 4rem) 0 5rem 0;
     flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .Projects {
+        width: 100%;
+        min-width: 0;
+        padding: calc(50px + 4rem) 1rem 5rem 1rem;
+    }
 }
 
 .Projects-project {
     display: flex;
-    background: red;
+    background: var(--secondary-background-color);
+    border-radius: 5px;
     margin: 16px;
-    width: 400px;
-    height: 350px;
+    height: 200px;
 }
