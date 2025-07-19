@@ -1,0 +1,34 @@
+.Project {
+    display: flex;
+    background: var(--secondary-background-color);
+    border-radius: 5px;
+    flex-direction: column;
+    margin: 16px;
+    height: 200px;
+    padding: 16px;
+}
+
+.ProjectTitle {
+    font-weight: normal;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.ProjectRow{
+    display: flex;
+}
+
+.ProjectDemo {
+    background: var(--accent-color);
+    color: var(--text-color);
+    border-radius: 5px;
+    padding: 5px;
+    width: 6rem;
+    height: fit-content;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    width: fit-content;
+}
