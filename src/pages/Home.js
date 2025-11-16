@@ -40,7 +40,7 @@ export default function Home() {
             <div>
                 <h2>Experience</h2>
                 <ul className="Home-list">
-                    <li>OCT 2025<br/><span style={{color: "var(--accent-color)"}}>
+                    <li>OCT 2025 - CURRENT<br/><span style={{color: "var(--accent-color)"}}>
                         Retail associate</span> > <span style={{fontWeight: "bold"}}>TJX Europe</span></li>
                     <br/>
                     <li>JUL 2025<br/><span style={{color: "var(--accent-color)"}}>
