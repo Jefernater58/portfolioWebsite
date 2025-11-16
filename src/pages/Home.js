@@ -36,6 +36,7 @@ export default function Home() {
                 <p>I have always been interested in finding out how things work. At the age of 10, I discovered programming when learning Python in primary school. Ever since I have continued to build on my knowledge, not just about programming, but about many technical aspects of computing. I believe that computing is the key to developing as a civilisation, so it is important that we do what we can to protect it. That is why I have such a passion for cyber security, and why I want to pursue a career in the area.</p>
             </div>
 
+
             <div>
                 <h2>Experience</h2>
                 <ul className="Home-list">
