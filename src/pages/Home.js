@@ -23,24 +23,28 @@ export default function Home() {
         <div style={{textAlign: "center", paddingBottom: "4rem"}}>
             <h2>Skills</h2>
             <ul className="Home-skills-list">
-                <li><span style={{color: "var(--accent-color)"}}>></span> Python, C#</li>
+                <li><span style={{color: "var(--accent-color)"}}>></span> Programming</li>
                 <li><span style={{color: "var(--accent-color)"}}>></span> Linux</li>
                 <li><span style={{color: "var(--accent-color)"}}>></span> Problem solving</li>
-                <li><span style={{color: "var(--accent-color)"}}>></span> Web development</li>
+                <li><span style={{color: "var(--accent-color)"}}>></span> Pentesting</li>
             </ul>
         </div>
 
         <div className="Home-about">
             <div>
                 <h2>About me</h2>
-                <p>I have always been interested in finding out how things work. At the age of 10, I discovered programming when learning Python in primary school. Ever since I have continued to build on my knowledge, not just about programming, but about many technical aspects of computing. I believe that computing is the key to developing as a civilisation, so it is important that we do what we can to protect it. That is why I have such a passion for cyber security, and why I want to pursue a career in the area.</p>
+                <p>I have always been interested in finding out how things work, and solving difficult problems that require looking beyond standard methods. When learning programming as a hobby I discovered an online course in cyber security, which is where I first learned about this area of the computing industry. Learning about vulnerabilities in real-world systems and how they can be exploited sparked my curiosity. The course gave me a keen interest in the field, specifically in OSINT and penetration testing. I find that these topics particularly challenge me to think laterally. Taking part in the CyberFirst Advanced course in August 2025 deepened my passion for cyber security by exposing me to new areas I hadn't considered, such as cryptography and digital forensics.</p>
+                <br/>
+                <p>The rise of artificial intelligence and quantum computing has introduced very new, complex and volatile types of attacks on computer systems. I believe that the importance of and demand for cyber security is now higher than ever. Studying cyber security will equip me with the skills I need to tackle emerging threats, as well as improve my critical thinking and resilience. These constant new threats motivate me to learn about how they work, and to stay ahead of attackers.</p>
+                <br/>
+                <p>After studying, my ambition is to contribute to national security by working to make our systems more secure and to prevent current / future threats to critical infrastructure.</p>
             </div>
 
 
             <div>
                 <h2>Experience</h2>
                 <ul className="Home-list">
-                    <li>OCT 2025 - CURRENT<br/><span style={{color: "var(--accent-color)"}}>
+                    <li>OCT 2025 - FEB 2026<br/><span style={{color: "var(--accent-color)"}}>
                         Retail associate</span> > <span style={{fontWeight: "bold"}}>TJX Europe</span></li>
                     <br/>
                     <li>JUL 2025<br/><span style={{color: "var(--accent-color)"}}>
