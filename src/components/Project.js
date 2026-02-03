@@ -4,7 +4,7 @@ export default function Project({title, github, demo, text}) {
     return <div className="Project">
         <div className="ProjectRow">
             <h2 className="ProjectTitle">{title}</h2>
-            {demo !== null ? <a className="ProjectDemo" href={demo}>Demo</a> : ""}
+            {demo !== null ? <a className="ProjectDemo" href={demo}>Demo (in progress)</a> : ""}
         </div>
 
         <div className="ProjectRow">
